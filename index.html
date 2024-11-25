@@ -3,43 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Web Francisco Jose Garcia Zarco</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web </h1>
-        <br>
-        <h2>Pagina de Francisco Jose<h2>
+        <h1>Mi Página Web de Francisco Jose Garcia Zarco</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#home">Inicio</a>
-        <a href="#about">Sobre Mí</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-    <section id="home">
-        <h2>Inicio Pagina web de Francisco Jose Garcia Zarco</h2>
-        <p>¡Hola! Esta es una página web sencilla creada como ejemplo. Aquí puedes encontrar información sobre mí y cómo contactarme.</p>
-    </section>
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Mi nombre es Francisco y soy un apasionado de la tecnología y el diseño web. Me gusta aprender nuevas habilidades y crear proyectos interesantes.</p>
-        <p>En mis tiempos libres disfruto de la lectura, la música y salir a caminar. También me gusta aprender sobre nuevas tendencias en desarrollo web.</p>
-    </section>
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través de las siguientes redes sociales:</p>
-        <ul>
-            <li><strong>Email:</strong> tunombre@ejemplo.com</li>
-            <li><strong>Twitter:</strong> @tuusuario</li>
-            <li><strong>LinkedIn:</strong> /in/tuusuario</li>
-        </ul>
-        <p>¡Estoy siempre abierto a nuevas oportunidades y colaboraciones!</p>
-    </section>
+
+    <main>
+        <section id="acerca-de">
+            <h2>Acerca de Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Diseño web</li>
+                <li>Desarrollo web</li>
+                <li>Marketing digital</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
     <footer>
-        <img src="./img/sosteni.jpg" alt="Texto alternativo">
-        <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Texto alternativo">
-        <p>&copy; 2024 Mi Página Web</p>
+        <p>&copy; 2023 Mi Página Web</p>
     </footer>
 </body>
 </html>

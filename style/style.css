@@ -7,13 +7,29 @@ body {
     color: white;
 }
 header {
-    background: rgba(97, 251, 30, 0.8);
+    background: rgba(180, 225, 254, 0.8);
+    margin: 0%;
     padding: 20px;
     text-align: center;
 }
 nav {
     margin: 20px 0;
 }
+
+nav ul {
+    list-style:   
+    none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
 nav a {
     margin: 0 15px;
     color: #f4f4f4;
